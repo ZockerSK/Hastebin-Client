@@ -40,7 +40,7 @@ public class Reader {
                 builder.append(System.lineSeparator());
             }
         }
-        return builder.toString();
+        return StringUtils.replaceLast(builder.toString(), System.lineSeparator(), "");
     }
 
 }
