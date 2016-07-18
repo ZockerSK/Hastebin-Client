@@ -1,5 +1,5 @@
 # Hastebin-Client
-An Client for posting text to haste-servers
+A client for posting text to haste-servers
 
 You have to compile this plugin with maven (mvn clean install)
 
